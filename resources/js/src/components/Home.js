@@ -4,10 +4,11 @@ import AppContainer from './AppContainer';
 import api from '../api';
 import { post } from 'jquery';
 
+
 const Home = () => {
 
     const [posts,setPosts] = useState(null);
-    const [title, setTitle] = useState('ABC');
+    const [title, setTitle] = useState('Laravel ReactJS-Crud');
 
     const fetchPosts = () => {
         api.getAllPosts().then(res => {
@@ -73,10 +74,10 @@ const Home = () => {
            <button className="btn btn-primary" style={{ marginRight:5 }}
            
            onClick = { ()=>{
-           setTitle (" DEF ");
+           setTitle (" I'm Changed!");
            }
         }
-        > Edit Title </button>
+        > Click Me! </button>
            <Link to="/add" className="btn btn-primary">Add Post</Link>
                     <div className="table-resposive">
                         <table className="table table-striped mt-1">

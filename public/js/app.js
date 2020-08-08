@@ -71080,7 +71080,7 @@ var Home = function Home() {
       posts = _useState2[0],
       setPosts = _useState2[1];
 
-  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])('ABC'),
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])('Laravel ReactJS-Crud'),
       _useState4 = _slicedToArray(_useState3, 2),
       title = _useState4[0],
       setTitle = _useState4[1];
@@ -71133,9 +71133,9 @@ var Home = function Home() {
       marginRight: 5
     },
     onClick: function onClick() {
-      setTitle(" DEF ");
+      setTitle(" I'm Changed!");
     }
-  }, " Edit Title "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+  }, " Click Me! "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     to: "/add",
     className: "btn btn-primary"
   }, "Add Post"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
